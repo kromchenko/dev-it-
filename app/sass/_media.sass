@@ -1,0 +1,140 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+    .ave
+        height: auto
+        p
+            font-size: 150px
+        img
+            height: 450px
+            margin-top: -315px
+            margin-left: 280px
+    
+    .input-group
+        width: 20%
+        background-color: #f8f8f8
+
+    .btn.btn-outline-dark
+        padding: 0 30px
+        margin-right: 150px
+        margin-top: -10px
+
+    .avard 
+        #winner
+            font-size: 20px
+
+    .avard 
+        #awards
+            font-size: 10px
+
+// ≥992px
++media-breakpoint-down(md)
+    .ave
+        height: auto
+        p
+            font-size: 120px
+        img
+            height: 350px
+            margin-top: -257px
+            margin-left: 280px
+    
+    .navbar-brand
+        position: relative
+        z-index: 1000
+
+    .btn.btn-outline-dark
+      display: none
+
+    .col-md-8
+        .card-text
+            font-size: 15px
+
+    .avard 
+        #winner
+            font-size: 20px
+
+    .avard 
+        #awards
+            font-size: 10px
+
+
+// ≥768px
++media-breakpoint-down(sm)
+    .ave
+        p
+            display: none
+        img
+            height: 350px
+            margin-top: -59px
+            margin-left: 280px
+
+    .btn.btn-outline-dark
+        display: none
+    
+    .navbar-brand
+        position: relative
+        z-index: 1000
+    
+    .leftBar
+        display: none
+
+    .content-menu
+        ul.content-ul
+            li.content-li
+                a
+                    font-size: 10px
+
+    .btn.btn-secondary.dropdown-toggle
+        margin-top: -27px
+
+    .container.banner.col-sm-10
+        display: none
+
+// ≥576px
++media-breakpoint-down(xs)
+    .ave
+        height: auto
+        p
+            display: none
+        img
+            height: 320px
+            margin-top: -59.5px
+            margin-left: 80px
+    
+    .navbar-brand
+        position: relative
+        z-index: 1000
+    
+    .rightBar
+        display: none
+
+    .btn.btn-outline-dark
+        padding: 0 10px
+        margin-right: 50px
+
+    .card-columns
+        column-count: 1
+
+    .btn.btn-secondary.dropdown-toggle
+        margin-top: 0px
+
+    .content-menu
+        font-size: 8px
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
